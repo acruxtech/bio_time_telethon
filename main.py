@@ -12,7 +12,6 @@ def main() -> None:
 
   while True:
     if time_has_changed(prev_update_time):
-      print('update')
       client.loop.run_until_complete(
         client(
           UpdateProfileRequest(
