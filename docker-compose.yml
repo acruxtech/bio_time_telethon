@@ -1,0 +1,15 @@
+services:
+  time-in-bio:
+    container_name: time-in-bio
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: host
+    ports:
+      - "8000:8000"
+    networks:
+      - host
+
+networks:
+  host:
+    driver: bridge
