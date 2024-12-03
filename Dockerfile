@@ -1,11 +1,10 @@
 FROM python:3.10.15
 
-WORKDIR /src
+WORKDIR /bio-in-time
 RUN pip install --upgrade pip
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY . /src/
+COPY . /bio-in-time/
 
-CMD ["python", "main.py"]
-
+CMD ["python", "src/main.py"]

@@ -4,6 +4,8 @@ This script allows you to display the current time in your telegram bio in real-
 
 ## Requirements
 
+*TEMPORARILY YOU NEED TO GET AUTHORIZED SESSION FILE AND PLACE IT TO PROJECT DIR*
+
 * installed `docker` on your PC or VPS
 
 ## Usage
